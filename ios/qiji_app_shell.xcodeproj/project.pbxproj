@@ -1,0 +1,1187 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 54;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		00E356F31AD99517003FC87E /* qiji_app_shellTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* qiji_app_shellTests.m */; };
+		13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
+		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
+		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
+		70AA182AA93F29356D51AF6F /* libPods-qiji_app_shell-qiji_app_shellTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BB056CF219120B7DE04D6DA4 /* libPods-qiji_app_shell-qiji_app_shellTests.a */; };
+		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
+		A00AE7A32722C0B400E2E3F4 /* NetworkExtension.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A00AE7A22722C0B400E2E3F4 /* NetworkExtension.framework */; };
+		A00BBEFF2726B4060018D9AB /* MMTimeRecordUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = A00BBEE12726B4060018D9AB /* MMTimeRecordUtil.m */; };
+		A00BBF002726B4060018D9AB /* ZipUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = A00BBEE22726B4060018D9AB /* ZipUtil.m */; };
+		A00BBF012726B4060018D9AB /* MMBaseReactNativeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A00BBEE52726B4060018D9AB /* MMBaseReactNativeViewController.m */; };
+		A00BBF022726B4060018D9AB /* MMAsyncLoadManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A00BBEE72726B4060018D9AB /* MMAsyncLoadManager.m */; };
+		A00BBF032726B4060018D9AB /* MMAsyncReactNativeContainerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A00BBEE82726B4060018D9AB /* MMAsyncReactNativeContainerViewController.m */; };
+		A00BBF042726B4060018D9AB /* MMAsyncGuideViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A00BBEED2726B4060018D9AB /* MMAsyncGuideViewController.m */; };
+		A00BBF052726B4060018D9AB /* MMSyncReactNativeContainerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A00BBEF12726B4060018D9AB /* MMSyncReactNativeContainerViewController.m */; };
+		A00BBF062726B4060018D9AB /* CRToastManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A00BBEF42726B4060018D9AB /* CRToastManager.m */; };
+		A00BBF072726B4060018D9AB /* CRToastViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A00BBEF62726B4060018D9AB /* CRToastViewController.m */; };
+		A00BBF082726B4070018D9AB /* CRToastView.m in Sources */ = {isa = PBXBuildFile; fileRef = A00BBEF92726B4060018D9AB /* CRToastView.m */; };
+		A00BBF092726B4070018D9AB /* CRToastWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = A00BBEFB2726B4060018D9AB /* CRToastWindow.m */; };
+		A00BBF0A2726B4070018D9AB /* CRToastConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = A00BBEFD2726B4060018D9AB /* CRToastConfig.m */; };
+		A00BBF4E2727E94C0018D9AB /* IndexValueFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00BBF0C2727E94C0018D9AB /* IndexValueFormatter.swift */; };
+		A00BBF4F2727E94C0018D9AB /* RNCombinedChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00BBF0E2727E94C0018D9AB /* RNCombinedChartView.swift */; };
+		A00BBF502727E94C0018D9AB /* RNCombinedChartManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00BBF0F2727E94C0018D9AB /* RNCombinedChartManager.swift */; };
+		A00BBF512727E94C0018D9AB /* RNCombinedChartManagerBridge.m in Sources */ = {isa = PBXBuildFile; fileRef = A00BBF102727E94C0018D9AB /* RNCombinedChartManagerBridge.m */; };
+		A00BBF522727E94C0018D9AB /* CombinedDataExtract.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00BBF112727E94C0018D9AB /* CombinedDataExtract.swift */; };
+		A00BBF532727E94C0018D9AB /* RNYAxisChartViewBase.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00BBF122727E94C0018D9AB /* RNYAxisChartViewBase.swift */; };
+		A00BBF542727E94C0018D9AB /* BalloonMarker.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00BBF132727E94C0018D9AB /* BalloonMarker.swift */; };
+		A00BBF552727E94C0018D9AB /* RNBarLineChartViewBase.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00BBF142727E94C0018D9AB /* RNBarLineChartViewBase.swift */; };
+		A00BBF562727E94C0018D9AB /* ChartDateFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00BBF162727E94C0018D9AB /* ChartDateFormatter.swift */; };
+		A00BBF572727E94C0018D9AB /* LargeValueFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00BBF172727E94C0018D9AB /* LargeValueFormatter.swift */; };
+		A00BBF582727E94C0018D9AB /* FontUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00BBF192727E94C0018D9AB /* FontUtils.swift */; };
+		A00BBF592727E94C0018D9AB /* EntryToDictionaryUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00BBF1A2727E94C0018D9AB /* EntryToDictionaryUtils.swift */; };
+		A00BBF5A2727E94C0018D9AB /* ChartDataSetConfigUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00BBF1B2727E94C0018D9AB /* ChartDataSetConfigUtils.swift */; };
+		A00BBF5B2727E94C0018D9AB /* HighlightUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00BBF1C2727E94C0018D9AB /* HighlightUtils.swift */; };
+		A00BBF5C2727E94C0018D9AB /* BridgeUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00BBF1D2727E94C0018D9AB /* BridgeUtils.swift */; };
+		A00BBF5D2727E94C0018D9AB /* RNBubbleChartManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00BBF202727E94C0018D9AB /* RNBubbleChartManager.swift */; };
+		A00BBF5E2727E94C0018D9AB /* RNBubbleChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00BBF212727E94C0018D9AB /* RNBubbleChartView.swift */; };
+		A00BBF5F2727E94C0018D9AB /* BubbleDataExtract.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00BBF222727E94C0018D9AB /* BubbleDataExtract.swift */; };
+		A00BBF602727E94C0018D9AB /* RNBubbleChartManagerBridge.m in Sources */ = {isa = PBXBuildFile; fileRef = A00BBF232727E94C0018D9AB /* RNBubbleChartManagerBridge.m */; };
+		A00BBF612727E94C0018D9AB /* CustomChartDateFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00BBF242727E94C0018D9AB /* CustomChartDateFormatter.swift */; };
+		A00BBF622727E94C0018D9AB /* RNBarLineChartBaseManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00BBF252727E94C0018D9AB /* RNBarLineChartBaseManager.swift */; };
+		A00BBF632727E94C0018D9AB /* RNPieChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00BBF282727E94C0018D9AB /* RNPieChartView.swift */; };
+		A00BBF642727E94C0018D9AB /* RNPieChartManagerBridge.m in Sources */ = {isa = PBXBuildFile; fileRef = A00BBF292727E94C0018D9AB /* RNPieChartManagerBridge.m */; };
+		A00BBF652727E94C0018D9AB /* PieDataExtract.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00BBF2A2727E94C0018D9AB /* PieDataExtract.swift */; };
+		A00BBF662727E94D0018D9AB /* RNPieChartManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00BBF2B2727E94C0018D9AB /* RNPieChartManager.swift */; };
+		A00BBF672727E94D0018D9AB /* RNScatterChartManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00BBF2D2727E94C0018D9AB /* RNScatterChartManager.swift */; };
+		A00BBF682727E94D0018D9AB /* RNScatterChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00BBF2E2727E94C0018D9AB /* RNScatterChartView.swift */; };
+		A00BBF692727E94D0018D9AB /* RNScatterChartManagerBridge.m in Sources */ = {isa = PBXBuildFile; fileRef = A00BBF2F2727E94C0018D9AB /* RNScatterChartManagerBridge.m */; };
+		A00BBF6A2727E94D0018D9AB /* ScatterDataExtract.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00BBF302727E94C0018D9AB /* ScatterDataExtract.swift */; };
+		A00BBF6B2727E94D0018D9AB /* RNLineChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00BBF322727E94C0018D9AB /* RNLineChartView.swift */; };
+		A00BBF6C2727E94D0018D9AB /* RNLineChartManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00BBF332727E94C0018D9AB /* RNLineChartManager.swift */; };
+		A00BBF6D2727E94D0018D9AB /* RNLineChartManagerBridge.m in Sources */ = {isa = PBXBuildFile; fileRef = A00BBF342727E94C0018D9AB /* RNLineChartManagerBridge.m */; };
+		A00BBF6E2727E94D0018D9AB /* LineDataExtract.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00BBF352727E94C0018D9AB /* LineDataExtract.swift */; };
+		A00BBF6F2727E94D0018D9AB /* CandleDataExtract.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00BBF372727E94C0018D9AB /* CandleDataExtract.swift */; };
+		A00BBF702727E94D0018D9AB /* RNCandleStickChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00BBF382727E94C0018D9AB /* RNCandleStickChartView.swift */; };
+		A00BBF712727E94D0018D9AB /* RNCandleStickChartManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00BBF392727E94C0018D9AB /* RNCandleStickChartManager.swift */; };
+		A00BBF722727E94D0018D9AB /* RNCandleStickChartManagerBridge.m in Sources */ = {isa = PBXBuildFile; fileRef = A00BBF3A2727E94C0018D9AB /* RNCandleStickChartManagerBridge.m */; };
+		A00BBF732727E94D0018D9AB /* RNBarChartViewBase.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00BBF3E2727E94C0018D9AB /* RNBarChartViewBase.swift */; };
+		A00BBF742727E94D0018D9AB /* BarDataExtract.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00BBF3F2727E94C0018D9AB /* BarDataExtract.swift */; };
+		A00BBF752727E94D0018D9AB /* RNHorizontalBarChartManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00BBF402727E94C0018D9AB /* RNHorizontalBarChartManager.swift */; };
+		A00BBF762727E94D0018D9AB /* RNBarChartManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00BBF412727E94C0018D9AB /* RNBarChartManager.swift */; };
+		A00BBF772727E94D0018D9AB /* RNBarChartManagerBridge.m in Sources */ = {isa = PBXBuildFile; fileRef = A00BBF422727E94C0018D9AB /* RNBarChartManagerBridge.m */; };
+		A00BBF782727E94D0018D9AB /* RNBarChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00BBF432727E94C0018D9AB /* RNBarChartView.swift */; };
+		A00BBF792727E94D0018D9AB /* RNHorizontalBarChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00BBF442727E94C0018D9AB /* RNHorizontalBarChartView.swift */; };
+		A00BBF7A2727E94D0018D9AB /* RNHorizontalBarChartManagerBridge.m in Sources */ = {isa = PBXBuildFile; fileRef = A00BBF452727E94C0018D9AB /* RNHorizontalBarChartManagerBridge.m */; };
+		A00BBF7B2727E94D0018D9AB /* RadarDataExtract.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00BBF472727E94C0018D9AB /* RadarDataExtract.swift */; };
+		A00BBF7C2727E94D0018D9AB /* RNRadarChartManagerBridge.m in Sources */ = {isa = PBXBuildFile; fileRef = A00BBF482727E94C0018D9AB /* RNRadarChartManagerBridge.m */; };
+		A00BBF7D2727E94D0018D9AB /* RNRadarChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00BBF492727E94C0018D9AB /* RNRadarChartView.swift */; };
+		A00BBF7E2727E94D0018D9AB /* RNRadarChartManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00BBF4A2727E94C0018D9AB /* RNRadarChartManager.swift */; };
+		A00BBF7F2727E94D0018D9AB /* RNChartViewBase.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00BBF4B2727E94C0018D9AB /* RNChartViewBase.swift */; };
+		A00BBF802727E94D0018D9AB /* ChartGroupHolder.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00BBF4C2727E94C0018D9AB /* ChartGroupHolder.swift */; };
+		A00BBF812727E94D0018D9AB /* DataExtract.swift in Sources */ = {isa = PBXBuildFile; fileRef = A00BBF4D2727E94C0018D9AB /* DataExtract.swift */; };
+		A05D2C6627393216001A1536 /* OpenWifiModule.m in Sources */ = {isa = PBXBuildFile; fileRef = A05D2C6527393216001A1536 /* OpenWifiModule.m */; };
+		A096F9B9280541C1009DB529 /* antfill.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A096F9B7280541C1009DB529 /* antfill.ttf */; };
+		A096F9BA280541C1009DB529 /* antoutline.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A096F9B8280541C1009DB529 /* antoutline.ttf */; };
+		A096F9BE280541EF009DB529 /* antfill.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A096F9BC280541EF009DB529 /* antfill.ttf */; };
+		A096F9BF280541EF009DB529 /* antoutline.ttf in Resources */ = {isa = PBXBuildFile; fileRef = A096F9BD280541EF009DB529 /* antoutline.ttf */; };
+		A0E29644271FB05B0084AC52 /* bundle in Resources */ = {isa = PBXBuildFile; fileRef = A0E29643271FB05A0084AC52 /* bundle */; };
+		A0E2964F2720F77C0084AC52 /* PluginModule.m in Sources */ = {isa = PBXBuildFile; fileRef = A0E2964E2720F77B0084AC52 /* PluginModule.m */; };
+		CF18FA84E253DDAF9C00DDD8 /* libPods-qiji_app_shell.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0E57C776496FE27226F68F8E /* libPods-qiji_app_shell.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		00E356F41AD99517003FC87E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 83CBB9F71A601CBA00E9B192 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 13B07F861A680F5B00A75B9A;
+			remoteInfo = qiji_app_shell;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		00E356EE1AD99517003FC87E /* qiji_app_shellTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = qiji_app_shellTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		00E356F21AD99517003FC87E /* qiji_app_shellTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = qiji_app_shellTests.m; sourceTree = "<group>"; };
+		0E57C776496FE27226F68F8E /* libPods-qiji_app_shell.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-qiji_app_shell.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		13B07F961A680F5B00A75B9A /* qiji_app_shell.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = qiji_app_shell.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = qiji_app_shell/AppDelegate.h; sourceTree = "<group>"; };
+		13B07FB01A68108700A75B9A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = qiji_app_shell/AppDelegate.m; sourceTree = "<group>"; };
+		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = qiji_app_shell/Images.xcassets; sourceTree = "<group>"; };
+		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = qiji_app_shell/Info.plist; sourceTree = "<group>"; };
+		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = qiji_app_shell/main.m; sourceTree = "<group>"; };
+		303574B3BB805E3396B4724D /* Pods-qiji_app_shell-qiji_app_shellTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-qiji_app_shell-qiji_app_shellTests.debug.xcconfig"; path = "Target Support Files/Pods-qiji_app_shell-qiji_app_shellTests/Pods-qiji_app_shell-qiji_app_shellTests.debug.xcconfig"; sourceTree = "<group>"; };
+		43B386F3BE4DDE3E6BCB9E47 /* Pods-qiji_app_shell.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-qiji_app_shell.debug.xcconfig"; path = "Target Support Files/Pods-qiji_app_shell/Pods-qiji_app_shell.debug.xcconfig"; sourceTree = "<group>"; };
+		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = qiji_app_shell/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A00AE7A02722C0A800E2E3F4 /* qiji_app_shell.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; name = qiji_app_shell.entitlements; path = qiji_app_shell/qiji_app_shell.entitlements; sourceTree = "<group>"; };
+		A00AE7A12722C0A800E2E3F4 /* qiji_app_shell.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; name = qiji_app_shell.entitlements; path = qiji_app_shell/qiji_app_shell.entitlements; sourceTree = "<group>"; };
+		A00AE7A22722C0B400E2E3F4 /* NetworkExtension.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = NetworkExtension.framework; path = System/Library/Frameworks/NetworkExtension.framework; sourceTree = SDKROOT; };
+		A00BBEE02726B4060018D9AB /* ZipUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZipUtil.h; sourceTree = "<group>"; };
+		A00BBEE12726B4060018D9AB /* MMTimeRecordUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMTimeRecordUtil.m; sourceTree = "<group>"; };
+		A00BBEE22726B4060018D9AB /* ZipUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZipUtil.m; sourceTree = "<group>"; };
+		A00BBEE32726B4060018D9AB /* MMTimeRecordUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMTimeRecordUtil.h; sourceTree = "<group>"; };
+		A00BBEE52726B4060018D9AB /* MMBaseReactNativeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMBaseReactNativeViewController.m; sourceTree = "<group>"; };
+		A00BBEE72726B4060018D9AB /* MMAsyncLoadManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMAsyncLoadManager.m; sourceTree = "<group>"; };
+		A00BBEE82726B4060018D9AB /* MMAsyncReactNativeContainerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMAsyncReactNativeContainerViewController.m; sourceTree = "<group>"; };
+		A00BBEE92726B4060018D9AB /* RCTBridge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RCTBridge.h; sourceTree = "<group>"; };
+		A00BBEEA2726B4060018D9AB /* MMAsyncGuideViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMAsyncGuideViewController.h; sourceTree = "<group>"; };
+		A00BBEEB2726B4060018D9AB /* MMAsyncReactNativeContainerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMAsyncReactNativeContainerViewController.h; sourceTree = "<group>"; };
+		A00BBEEC2726B4060018D9AB /* MMAsyncLoadManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMAsyncLoadManager.h; sourceTree = "<group>"; };
+		A00BBEED2726B4060018D9AB /* MMAsyncGuideViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMAsyncGuideViewController.m; sourceTree = "<group>"; };
+		A00BBEEE2726B4060018D9AB /* MMBaseReactNativeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMBaseReactNativeViewController.h; sourceTree = "<group>"; };
+		A00BBEF02726B4060018D9AB /* MMSyncReactNativeContainerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMSyncReactNativeContainerViewController.h; sourceTree = "<group>"; };
+		A00BBEF12726B4060018D9AB /* MMSyncReactNativeContainerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMSyncReactNativeContainerViewController.m; sourceTree = "<group>"; };
+		A00BBEF32726B4060018D9AB /* CRToastWindow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CRToastWindow.h; sourceTree = "<group>"; };
+		A00BBEF42726B4060018D9AB /* CRToastManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CRToastManager.m; sourceTree = "<group>"; };
+		A00BBEF52726B4060018D9AB /* CRToastView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CRToastView.h; sourceTree = "<group>"; };
+		A00BBEF62726B4060018D9AB /* CRToastViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CRToastViewController.m; sourceTree = "<group>"; };
+		A00BBEF72726B4060018D9AB /* CRToastConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CRToastConfig.h; sourceTree = "<group>"; };
+		A00BBEF82726B4060018D9AB /* CRToast.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CRToast.h; sourceTree = "<group>"; };
+		A00BBEF92726B4060018D9AB /* CRToastView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CRToastView.m; sourceTree = "<group>"; };
+		A00BBEFA2726B4060018D9AB /* CRToastManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CRToastManager.h; sourceTree = "<group>"; };
+		A00BBEFB2726B4060018D9AB /* CRToastWindow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CRToastWindow.m; sourceTree = "<group>"; };
+		A00BBEFC2726B4060018D9AB /* CRToastLayoutHelpers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CRToastLayoutHelpers.h; sourceTree = "<group>"; };
+		A00BBEFD2726B4060018D9AB /* CRToastConfig.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CRToastConfig.m; sourceTree = "<group>"; };
+		A00BBEFE2726B4060018D9AB /* CRToastViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CRToastViewController.h; sourceTree = "<group>"; };
+		A00BBF0C2727E94C0018D9AB /* IndexValueFormatter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IndexValueFormatter.swift; sourceTree = "<group>"; };
+		A00BBF0E2727E94C0018D9AB /* RNCombinedChartView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RNCombinedChartView.swift; sourceTree = "<group>"; };
+		A00BBF0F2727E94C0018D9AB /* RNCombinedChartManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RNCombinedChartManager.swift; sourceTree = "<group>"; };
+		A00BBF102727E94C0018D9AB /* RNCombinedChartManagerBridge.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RNCombinedChartManagerBridge.m; sourceTree = "<group>"; };
+		A00BBF112727E94C0018D9AB /* CombinedDataExtract.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CombinedDataExtract.swift; sourceTree = "<group>"; };
+		A00BBF122727E94C0018D9AB /* RNYAxisChartViewBase.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RNYAxisChartViewBase.swift; sourceTree = "<group>"; };
+		A00BBF132727E94C0018D9AB /* BalloonMarker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BalloonMarker.swift; sourceTree = "<group>"; };
+		A00BBF142727E94C0018D9AB /* RNBarLineChartViewBase.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RNBarLineChartViewBase.swift; sourceTree = "<group>"; };
+		A00BBF162727E94C0018D9AB /* ChartDateFormatter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChartDateFormatter.swift; sourceTree = "<group>"; };
+		A00BBF172727E94C0018D9AB /* LargeValueFormatter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LargeValueFormatter.swift; sourceTree = "<group>"; };
+		A00BBF192727E94C0018D9AB /* FontUtils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FontUtils.swift; sourceTree = "<group>"; };
+		A00BBF1A2727E94C0018D9AB /* EntryToDictionaryUtils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EntryToDictionaryUtils.swift; sourceTree = "<group>"; };
+		A00BBF1B2727E94C0018D9AB /* ChartDataSetConfigUtils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChartDataSetConfigUtils.swift; sourceTree = "<group>"; };
+		A00BBF1C2727E94C0018D9AB /* HighlightUtils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HighlightUtils.swift; sourceTree = "<group>"; };
+		A00BBF1D2727E94C0018D9AB /* BridgeUtils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BridgeUtils.swift; sourceTree = "<group>"; };
+		A00BBF1E2727E94C0018D9AB /* RNChartManagerBridge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RNChartManagerBridge.h; sourceTree = "<group>"; };
+		A00BBF202727E94C0018D9AB /* RNBubbleChartManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RNBubbleChartManager.swift; sourceTree = "<group>"; };
+		A00BBF212727E94C0018D9AB /* RNBubbleChartView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RNBubbleChartView.swift; sourceTree = "<group>"; };
+		A00BBF222727E94C0018D9AB /* BubbleDataExtract.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BubbleDataExtract.swift; sourceTree = "<group>"; };
+		A00BBF232727E94C0018D9AB /* RNBubbleChartManagerBridge.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RNBubbleChartManagerBridge.m; sourceTree = "<group>"; };
+		A00BBF242727E94C0018D9AB /* CustomChartDateFormatter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomChartDateFormatter.swift; sourceTree = "<group>"; };
+		A00BBF252727E94C0018D9AB /* RNBarLineChartBaseManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RNBarLineChartBaseManager.swift; sourceTree = "<group>"; };
+		A00BBF262727E94C0018D9AB /* RNYAxisChartManagerBridge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RNYAxisChartManagerBridge.h; sourceTree = "<group>"; };
+		A00BBF282727E94C0018D9AB /* RNPieChartView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RNPieChartView.swift; sourceTree = "<group>"; };
+		A00BBF292727E94C0018D9AB /* RNPieChartManagerBridge.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RNPieChartManagerBridge.m; sourceTree = "<group>"; };
+		A00BBF2A2727E94C0018D9AB /* PieDataExtract.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PieDataExtract.swift; sourceTree = "<group>"; };
+		A00BBF2B2727E94C0018D9AB /* RNPieChartManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RNPieChartManager.swift; sourceTree = "<group>"; };
+		A00BBF2D2727E94C0018D9AB /* RNScatterChartManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RNScatterChartManager.swift; sourceTree = "<group>"; };
+		A00BBF2E2727E94C0018D9AB /* RNScatterChartView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RNScatterChartView.swift; sourceTree = "<group>"; };
+		A00BBF2F2727E94C0018D9AB /* RNScatterChartManagerBridge.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RNScatterChartManagerBridge.m; sourceTree = "<group>"; };
+		A00BBF302727E94C0018D9AB /* ScatterDataExtract.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScatterDataExtract.swift; sourceTree = "<group>"; };
+		A00BBF322727E94C0018D9AB /* RNLineChartView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RNLineChartView.swift; sourceTree = "<group>"; };
+		A00BBF332727E94C0018D9AB /* RNLineChartManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RNLineChartManager.swift; sourceTree = "<group>"; };
+		A00BBF342727E94C0018D9AB /* RNLineChartManagerBridge.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RNLineChartManagerBridge.m; sourceTree = "<group>"; };
+		A00BBF352727E94C0018D9AB /* LineDataExtract.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LineDataExtract.swift; sourceTree = "<group>"; };
+		A00BBF372727E94C0018D9AB /* CandleDataExtract.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CandleDataExtract.swift; sourceTree = "<group>"; };
+		A00BBF382727E94C0018D9AB /* RNCandleStickChartView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RNCandleStickChartView.swift; sourceTree = "<group>"; };
+		A00BBF392727E94C0018D9AB /* RNCandleStickChartManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RNCandleStickChartManager.swift; sourceTree = "<group>"; };
+		A00BBF3A2727E94C0018D9AB /* RNCandleStickChartManagerBridge.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RNCandleStickChartManagerBridge.m; sourceTree = "<group>"; };
+		A00BBF3B2727E94C0018D9AB /* RNBarLineChartManagerBridge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RNBarLineChartManagerBridge.h; sourceTree = "<group>"; };
+		A00BBF3C2727E94C0018D9AB /* RNCharts-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "RNCharts-Bridging-Header.h"; sourceTree = "<group>"; };
+		A00BBF3E2727E94C0018D9AB /* RNBarChartViewBase.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RNBarChartViewBase.swift; sourceTree = "<group>"; };
+		A00BBF3F2727E94C0018D9AB /* BarDataExtract.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BarDataExtract.swift; sourceTree = "<group>"; };
+		A00BBF402727E94C0018D9AB /* RNHorizontalBarChartManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RNHorizontalBarChartManager.swift; sourceTree = "<group>"; };
+		A00BBF412727E94C0018D9AB /* RNBarChartManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RNBarChartManager.swift; sourceTree = "<group>"; };
+		A00BBF422727E94C0018D9AB /* RNBarChartManagerBridge.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RNBarChartManagerBridge.m; sourceTree = "<group>"; };
+		A00BBF432727E94C0018D9AB /* RNBarChartView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RNBarChartView.swift; sourceTree = "<group>"; };
+		A00BBF442727E94C0018D9AB /* RNHorizontalBarChartView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RNHorizontalBarChartView.swift; sourceTree = "<group>"; };
+		A00BBF452727E94C0018D9AB /* RNHorizontalBarChartManagerBridge.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RNHorizontalBarChartManagerBridge.m; sourceTree = "<group>"; };
+		A00BBF472727E94C0018D9AB /* RadarDataExtract.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RadarDataExtract.swift; sourceTree = "<group>"; };
+		A00BBF482727E94C0018D9AB /* RNRadarChartManagerBridge.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RNRadarChartManagerBridge.m; sourceTree = "<group>"; };
+		A00BBF492727E94C0018D9AB /* RNRadarChartView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RNRadarChartView.swift; sourceTree = "<group>"; };
+		A00BBF4A2727E94C0018D9AB /* RNRadarChartManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RNRadarChartManager.swift; sourceTree = "<group>"; };
+		A00BBF4B2727E94C0018D9AB /* RNChartViewBase.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RNChartViewBase.swift; sourceTree = "<group>"; };
+		A00BBF4C2727E94C0018D9AB /* ChartGroupHolder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChartGroupHolder.swift; sourceTree = "<group>"; };
+		A00BBF4D2727E94C0018D9AB /* DataExtract.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataExtract.swift; sourceTree = "<group>"; };
+		A05D2C64273931EB001A1536 /* OpenWifiModule.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OpenWifiModule.h; sourceTree = "<group>"; };
+		A05D2C6527393216001A1536 /* OpenWifiModule.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OpenWifiModule.m; sourceTree = "<group>"; };
+		A096F9B7280541C1009DB529 /* antfill.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = antfill.ttf; sourceTree = "<group>"; };
+		A096F9B8280541C1009DB529 /* antoutline.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = antoutline.ttf; sourceTree = "<group>"; };
+		A096F9BC280541EF009DB529 /* antfill.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = antfill.ttf; sourceTree = "<group>"; };
+		A096F9BD280541EF009DB529 /* antoutline.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = antoutline.ttf; sourceTree = "<group>"; };
+		A0E29643271FB05A0084AC52 /* bundle */ = {isa = PBXFileReference; lastKnownFileType = folder; path = bundle; sourceTree = "<group>"; };
+		A0E2964D2720F7540084AC52 /* PluginModule.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PluginModule.h; sourceTree = "<group>"; };
+		A0E2964E2720F77B0084AC52 /* PluginModule.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PluginModule.m; sourceTree = "<group>"; };
+		B773184BDCAC5A259C8C462C /* Pods-qiji_app_shell-qiji_app_shellTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-qiji_app_shell-qiji_app_shellTests.release.xcconfig"; path = "Target Support Files/Pods-qiji_app_shell-qiji_app_shellTests/Pods-qiji_app_shell-qiji_app_shellTests.release.xcconfig"; sourceTree = "<group>"; };
+		BB056CF219120B7DE04D6DA4 /* libPods-qiji_app_shell-qiji_app_shellTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-qiji_app_shell-qiji_app_shellTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA90E0763CBE6BDD753BE9AD /* Pods-qiji_app_shell.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-qiji_app_shell.release.xcconfig"; path = "Target Support Files/Pods-qiji_app_shell/Pods-qiji_app_shell.release.xcconfig"; sourceTree = "<group>"; };
+		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		00E356EB1AD99517003FC87E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				70AA182AA93F29356D51AF6F /* libPods-qiji_app_shell-qiji_app_shellTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13B07F8C1A680F5B00A75B9A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF18FA84E253DDAF9C00DDD8 /* libPods-qiji_app_shell.a in Frameworks */,
+				A00AE7A32722C0B400E2E3F4 /* NetworkExtension.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		00E356EF1AD99517003FC87E /* qiji_app_shellTests */ = {
+			isa = PBXGroup;
+			children = (
+				00E356F21AD99517003FC87E /* qiji_app_shellTests.m */,
+				00E356F01AD99517003FC87E /* Supporting Files */,
+			);
+			path = qiji_app_shellTests;
+			sourceTree = "<group>";
+		};
+		00E356F01AD99517003FC87E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				00E356F11AD99517003FC87E /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		13B07FAE1A68108700A75B9A /* qiji_app_shell */ = {
+			isa = PBXGroup;
+			children = (
+				A096F9BB280541EF009DB529 /* fonts */,
+				A00BBEE42726B4060018D9AB /* controllers */,
+				A00BBEF22726B4060018D9AB /* CRToast */,
+				A00BBEDF2726B4060018D9AB /* utils */,
+				A00AE7A12722C0A800E2E3F4 /* qiji_app_shell.entitlements */,
+				A00AE7A02722C0A800E2E3F4 /* qiji_app_shell.entitlements */,
+				A0E29643271FB05A0084AC52 /* bundle */,
+				13B07FAF1A68108700A75B9A /* AppDelegate.h */,
+				13B07FB01A68108700A75B9A /* AppDelegate.m */,
+				13B07FB51A68108700A75B9A /* Images.xcassets */,
+				13B07FB61A68108700A75B9A /* Info.plist */,
+				81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */,
+				13B07FB71A68108700A75B9A /* main.m */,
+				A0E2964D2720F7540084AC52 /* PluginModule.h */,
+				A0E2964E2720F77B0084AC52 /* PluginModule.m */,
+				A05D2C64273931EB001A1536 /* OpenWifiModule.h */,
+				A05D2C6527393216001A1536 /* OpenWifiModule.m */,
+			);
+			name = qiji_app_shell;
+			sourceTree = "<group>";
+		};
+		2D16E6871FA4F8E400B85C8A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A00AE7A22722C0B400E2E3F4 /* NetworkExtension.framework */,
+				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
+				0E57C776496FE27226F68F8E /* libPods-qiji_app_shell.a */,
+				BB056CF219120B7DE04D6DA4 /* libPods-qiji_app_shell-qiji_app_shellTests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		44599D9518895C2F926A98A3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				43B386F3BE4DDE3E6BCB9E47 /* Pods-qiji_app_shell.debug.xcconfig */,
+				EA90E0763CBE6BDD753BE9AD /* Pods-qiji_app_shell.release.xcconfig */,
+				303574B3BB805E3396B4724D /* Pods-qiji_app_shell-qiji_app_shellTests.debug.xcconfig */,
+				B773184BDCAC5A259C8C462C /* Pods-qiji_app_shell-qiji_app_shellTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		832341AE1AAA6A7D00B99B32 /* Libraries */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Libraries;
+			sourceTree = "<group>";
+		};
+		83CBB9F61A601CBA00E9B192 = {
+			isa = PBXGroup;
+			children = (
+				A00BBF0B2727E94C0018D9AB /* ReactNativeCharts */,
+				13B07FAE1A68108700A75B9A /* qiji_app_shell */,
+				832341AE1AAA6A7D00B99B32 /* Libraries */,
+				00E356EF1AD99517003FC87E /* qiji_app_shellTests */,
+				83CBBA001A601CBA00E9B192 /* Products */,
+				2D16E6871FA4F8E400B85C8A /* Frameworks */,
+				44599D9518895C2F926A98A3 /* Pods */,
+			);
+			indentWidth = 2;
+			sourceTree = "<group>";
+			tabWidth = 2;
+			usesTabs = 0;
+		};
+		83CBBA001A601CBA00E9B192 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				13B07F961A680F5B00A75B9A /* qiji_app_shell.app */,
+				00E356EE1AD99517003FC87E /* qiji_app_shellTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A00BBEDF2726B4060018D9AB /* utils */ = {
+			isa = PBXGroup;
+			children = (
+				A00BBEE02726B4060018D9AB /* ZipUtil.h */,
+				A00BBEE12726B4060018D9AB /* MMTimeRecordUtil.m */,
+				A00BBEE22726B4060018D9AB /* ZipUtil.m */,
+				A00BBEE32726B4060018D9AB /* MMTimeRecordUtil.h */,
+			);
+			path = utils;
+			sourceTree = "<group>";
+		};
+		A00BBEE42726B4060018D9AB /* controllers */ = {
+			isa = PBXGroup;
+			children = (
+				A00BBEE52726B4060018D9AB /* MMBaseReactNativeViewController.m */,
+				A00BBEE62726B4060018D9AB /* async */,
+				A00BBEEE2726B4060018D9AB /* MMBaseReactNativeViewController.h */,
+				A00BBEEF2726B4060018D9AB /* sync */,
+			);
+			path = controllers;
+			sourceTree = "<group>";
+		};
+		A00BBEE62726B4060018D9AB /* async */ = {
+			isa = PBXGroup;
+			children = (
+				A00BBEE72726B4060018D9AB /* MMAsyncLoadManager.m */,
+				A00BBEE82726B4060018D9AB /* MMAsyncReactNativeContainerViewController.m */,
+				A00BBEE92726B4060018D9AB /* RCTBridge.h */,
+				A00BBEEA2726B4060018D9AB /* MMAsyncGuideViewController.h */,
+				A00BBEEB2726B4060018D9AB /* MMAsyncReactNativeContainerViewController.h */,
+				A00BBEEC2726B4060018D9AB /* MMAsyncLoadManager.h */,
+				A00BBEED2726B4060018D9AB /* MMAsyncGuideViewController.m */,
+			);
+			path = async;
+			sourceTree = "<group>";
+		};
+		A00BBEEF2726B4060018D9AB /* sync */ = {
+			isa = PBXGroup;
+			children = (
+				A00BBEF02726B4060018D9AB /* MMSyncReactNativeContainerViewController.h */,
+				A00BBEF12726B4060018D9AB /* MMSyncReactNativeContainerViewController.m */,
+			);
+			path = sync;
+			sourceTree = "<group>";
+		};
+		A00BBEF22726B4060018D9AB /* CRToast */ = {
+			isa = PBXGroup;
+			children = (
+				A00BBEF32726B4060018D9AB /* CRToastWindow.h */,
+				A00BBEF42726B4060018D9AB /* CRToastManager.m */,
+				A00BBEF52726B4060018D9AB /* CRToastView.h */,
+				A00BBEF62726B4060018D9AB /* CRToastViewController.m */,
+				A00BBEF72726B4060018D9AB /* CRToastConfig.h */,
+				A00BBEF82726B4060018D9AB /* CRToast.h */,
+				A00BBEF92726B4060018D9AB /* CRToastView.m */,
+				A00BBEFA2726B4060018D9AB /* CRToastManager.h */,
+				A00BBEFB2726B4060018D9AB /* CRToastWindow.m */,
+				A00BBEFC2726B4060018D9AB /* CRToastLayoutHelpers.h */,
+				A00BBEFD2726B4060018D9AB /* CRToastConfig.m */,
+				A00BBEFE2726B4060018D9AB /* CRToastViewController.h */,
+			);
+			path = CRToast;
+			sourceTree = "<group>";
+		};
+		A00BBF0B2727E94C0018D9AB /* ReactNativeCharts */ = {
+			isa = PBXGroup;
+			children = (
+				A096F9B6280541C1009DB529 /* fonts */,
+				A00BBF0C2727E94C0018D9AB /* IndexValueFormatter.swift */,
+				A00BBF0D2727E94C0018D9AB /* combine */,
+				A00BBF122727E94C0018D9AB /* RNYAxisChartViewBase.swift */,
+				A00BBF132727E94C0018D9AB /* BalloonMarker.swift */,
+				A00BBF142727E94C0018D9AB /* RNBarLineChartViewBase.swift */,
+				A00BBF152727E94C0018D9AB /* formatters */,
+				A00BBF182727E94C0018D9AB /* utils */,
+				A00BBF1E2727E94C0018D9AB /* RNChartManagerBridge.h */,
+				A00BBF1F2727E94C0018D9AB /* bubble */,
+				A00BBF242727E94C0018D9AB /* CustomChartDateFormatter.swift */,
+				A00BBF252727E94C0018D9AB /* RNBarLineChartBaseManager.swift */,
+				A00BBF262727E94C0018D9AB /* RNYAxisChartManagerBridge.h */,
+				A00BBF272727E94C0018D9AB /* pie */,
+				A00BBF2C2727E94C0018D9AB /* scatter */,
+				A00BBF312727E94C0018D9AB /* line */,
+				A00BBF362727E94C0018D9AB /* candlestick */,
+				A00BBF3B2727E94C0018D9AB /* RNBarLineChartManagerBridge.h */,
+				A00BBF3C2727E94C0018D9AB /* RNCharts-Bridging-Header.h */,
+				A00BBF3D2727E94C0018D9AB /* bar */,
+				A00BBF462727E94C0018D9AB /* radar */,
+				A00BBF4B2727E94C0018D9AB /* RNChartViewBase.swift */,
+				A00BBF4C2727E94C0018D9AB /* ChartGroupHolder.swift */,
+				A00BBF4D2727E94C0018D9AB /* DataExtract.swift */,
+			);
+			name = ReactNativeCharts;
+			path = "../node_modules/react-native-charts-wrapper/ios/ReactNativeCharts";
+			sourceTree = "<group>";
+		};
+		A00BBF0D2727E94C0018D9AB /* combine */ = {
+			isa = PBXGroup;
+			children = (
+				A00BBF0E2727E94C0018D9AB /* RNCombinedChartView.swift */,
+				A00BBF0F2727E94C0018D9AB /* RNCombinedChartManager.swift */,
+				A00BBF102727E94C0018D9AB /* RNCombinedChartManagerBridge.m */,
+				A00BBF112727E94C0018D9AB /* CombinedDataExtract.swift */,
+			);
+			path = combine;
+			sourceTree = "<group>";
+		};
+		A00BBF152727E94C0018D9AB /* formatters */ = {
+			isa = PBXGroup;
+			children = (
+				A00BBF162727E94C0018D9AB /* ChartDateFormatter.swift */,
+				A00BBF172727E94C0018D9AB /* LargeValueFormatter.swift */,
+			);
+			path = formatters;
+			sourceTree = "<group>";
+		};
+		A00BBF182727E94C0018D9AB /* utils */ = {
+			isa = PBXGroup;
+			children = (
+				A00BBF192727E94C0018D9AB /* FontUtils.swift */,
+				A00BBF1A2727E94C0018D9AB /* EntryToDictionaryUtils.swift */,
+				A00BBF1B2727E94C0018D9AB /* ChartDataSetConfigUtils.swift */,
+				A00BBF1C2727E94C0018D9AB /* HighlightUtils.swift */,
+				A00BBF1D2727E94C0018D9AB /* BridgeUtils.swift */,
+			);
+			path = utils;
+			sourceTree = "<group>";
+		};
+		A00BBF1F2727E94C0018D9AB /* bubble */ = {
+			isa = PBXGroup;
+			children = (
+				A00BBF202727E94C0018D9AB /* RNBubbleChartManager.swift */,
+				A00BBF212727E94C0018D9AB /* RNBubbleChartView.swift */,
+				A00BBF222727E94C0018D9AB /* BubbleDataExtract.swift */,
+				A00BBF232727E94C0018D9AB /* RNBubbleChartManagerBridge.m */,
+			);
+			path = bubble;
+			sourceTree = "<group>";
+		};
+		A00BBF272727E94C0018D9AB /* pie */ = {
+			isa = PBXGroup;
+			children = (
+				A00BBF282727E94C0018D9AB /* RNPieChartView.swift */,
+				A00BBF292727E94C0018D9AB /* RNPieChartManagerBridge.m */,
+				A00BBF2A2727E94C0018D9AB /* PieDataExtract.swift */,
+				A00BBF2B2727E94C0018D9AB /* RNPieChartManager.swift */,
+			);
+			path = pie;
+			sourceTree = "<group>";
+		};
+		A00BBF2C2727E94C0018D9AB /* scatter */ = {
+			isa = PBXGroup;
+			children = (
+				A00BBF2D2727E94C0018D9AB /* RNScatterChartManager.swift */,
+				A00BBF2E2727E94C0018D9AB /* RNScatterChartView.swift */,
+				A00BBF2F2727E94C0018D9AB /* RNScatterChartManagerBridge.m */,
+				A00BBF302727E94C0018D9AB /* ScatterDataExtract.swift */,
+			);
+			path = scatter;
+			sourceTree = "<group>";
+		};
+		A00BBF312727E94C0018D9AB /* line */ = {
+			isa = PBXGroup;
+			children = (
+				A00BBF322727E94C0018D9AB /* RNLineChartView.swift */,
+				A00BBF332727E94C0018D9AB /* RNLineChartManager.swift */,
+				A00BBF342727E94C0018D9AB /* RNLineChartManagerBridge.m */,
+				A00BBF352727E94C0018D9AB /* LineDataExtract.swift */,
+			);
+			path = line;
+			sourceTree = "<group>";
+		};
+		A00BBF362727E94C0018D9AB /* candlestick */ = {
+			isa = PBXGroup;
+			children = (
+				A00BBF372727E94C0018D9AB /* CandleDataExtract.swift */,
+				A00BBF382727E94C0018D9AB /* RNCandleStickChartView.swift */,
+				A00BBF392727E94C0018D9AB /* RNCandleStickChartManager.swift */,
+				A00BBF3A2727E94C0018D9AB /* RNCandleStickChartManagerBridge.m */,
+			);
+			path = candlestick;
+			sourceTree = "<group>";
+		};
+		A00BBF3D2727E94C0018D9AB /* bar */ = {
+			isa = PBXGroup;
+			children = (
+				A00BBF3E2727E94C0018D9AB /* RNBarChartViewBase.swift */,
+				A00BBF3F2727E94C0018D9AB /* BarDataExtract.swift */,
+				A00BBF402727E94C0018D9AB /* RNHorizontalBarChartManager.swift */,
+				A00BBF412727E94C0018D9AB /* RNBarChartManager.swift */,
+				A00BBF422727E94C0018D9AB /* RNBarChartManagerBridge.m */,
+				A00BBF432727E94C0018D9AB /* RNBarChartView.swift */,
+				A00BBF442727E94C0018D9AB /* RNHorizontalBarChartView.swift */,
+				A00BBF452727E94C0018D9AB /* RNHorizontalBarChartManagerBridge.m */,
+			);
+			path = bar;
+			sourceTree = "<group>";
+		};
+		A00BBF462727E94C0018D9AB /* radar */ = {
+			isa = PBXGroup;
+			children = (
+				A00BBF472727E94C0018D9AB /* RadarDataExtract.swift */,
+				A00BBF482727E94C0018D9AB /* RNRadarChartManagerBridge.m */,
+				A00BBF492727E94C0018D9AB /* RNRadarChartView.swift */,
+				A00BBF4A2727E94C0018D9AB /* RNRadarChartManager.swift */,
+			);
+			path = radar;
+			sourceTree = "<group>";
+		};
+		A096F9B6280541C1009DB529 /* fonts */ = {
+			isa = PBXGroup;
+			children = (
+				A096F9B7280541C1009DB529 /* antfill.ttf */,
+				A096F9B8280541C1009DB529 /* antoutline.ttf */,
+			);
+			name = fonts;
+			path = "../../../@ant-design/icons-react-native/fonts";
+			sourceTree = "<group>";
+		};
+		A096F9BB280541EF009DB529 /* fonts */ = {
+			isa = PBXGroup;
+			children = (
+				A096F9BC280541EF009DB529 /* antfill.ttf */,
+				A096F9BD280541EF009DB529 /* antoutline.ttf */,
+			);
+			name = fonts;
+			path = "../node_modules/@ant-design/icons-react-native/fonts";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		00E356ED1AD99517003FC87E /* qiji_app_shellTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "qiji_app_shellTests" */;
+			buildPhases = (
+				1BE62846E4E4B9C9DACD1B33 /* [CP] Check Pods Manifest.lock */,
+				00E356EA1AD99517003FC87E /* Sources */,
+				00E356EB1AD99517003FC87E /* Frameworks */,
+				00E356EC1AD99517003FC87E /* Resources */,
+				18537388BF5045E4A303F759 /* [CP] Embed Pods Frameworks */,
+				9C7F3F3A44A40488656ED290 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				00E356F51AD99517003FC87E /* PBXTargetDependency */,
+			);
+			name = qiji_app_shellTests;
+			productName = qiji_app_shellTests;
+			productReference = 00E356EE1AD99517003FC87E /* qiji_app_shellTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		13B07F861A680F5B00A75B9A /* qiji_app_shell */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "qiji_app_shell" */;
+			buildPhases = (
+				07E5301137D42FD33F2C16C8 /* [CP] Check Pods Manifest.lock */,
+				FD10A7F022414F080027D42C /* Start Packager */,
+				13B07F871A680F5B00A75B9A /* Sources */,
+				13B07F8C1A680F5B00A75B9A /* Frameworks */,
+				13B07F8E1A680F5B00A75B9A /* Resources */,
+				00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */,
+				22E003EB5FDA21DBDBCEEE61 /* [CP] Embed Pods Frameworks */,
+				5BE4AFAF731F345E2A385E69 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = qiji_app_shell;
+			productName = qiji_app_shell;
+			productReference = 13B07F961A680F5B00A75B9A /* qiji_app_shell.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		83CBB9F71A601CBA00E9B192 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1210;
+				TargetAttributes = {
+					00E356ED1AD99517003FC87E = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = 13B07F861A680F5B00A75B9A;
+					};
+					13B07F861A680F5B00A75B9A = {
+						LastSwiftMigration = 1120;
+					};
+				};
+			};
+			buildConfigurationList = 83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "qiji_app_shell" */;
+			compatibilityVersion = "Xcode 12.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				"zh-Hans",
+			);
+			mainGroup = 83CBB9F61A601CBA00E9B192;
+			productRefGroup = 83CBBA001A601CBA00E9B192 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				13B07F861A680F5B00A75B9A /* qiji_app_shell */,
+				00E356ED1AD99517003FC87E /* qiji_app_shellTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		00E356EC1AD99517003FC87E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13B07F8E1A680F5B00A75B9A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
+				A096F9BA280541C1009DB529 /* antoutline.ttf in Resources */,
+				A096F9B9280541C1009DB529 /* antfill.ttf in Resources */,
+				A096F9BE280541EF009DB529 /* antfill.ttf in Resources */,
+				A0E29644271FB05B0084AC52 /* bundle in Resources */,
+				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
+				A096F9BF280541EF009DB529 /* antoutline.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		00DD1BFF1BD5951E006B06BC /* Bundle React Native code and images */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Bundle React Native code and images";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e\n\nexport NODE_BINARY=node\n../node_modules/react-native/scripts/react-native-xcode.sh\n";
+		};
+		07E5301137D42FD33F2C16C8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-qiji_app_shell-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		18537388BF5045E4A303F759 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-qiji_app_shell-qiji_app_shellTests/Pods-qiji_app_shell-qiji_app_shellTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-qiji_app_shell-qiji_app_shellTests/Pods-qiji_app_shell-qiji_app_shellTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-qiji_app_shell-qiji_app_shellTests/Pods-qiji_app_shell-qiji_app_shellTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1BE62846E4E4B9C9DACD1B33 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-qiji_app_shell-qiji_app_shellTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		22E003EB5FDA21DBDBCEEE61 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-qiji_app_shell/Pods-qiji_app_shell-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-qiji_app_shell/Pods-qiji_app_shell-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-qiji_app_shell/Pods-qiji_app_shell-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5BE4AFAF731F345E2A385E69 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-qiji_app_shell/Pods-qiji_app_shell-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-qiji_app_shell/Pods-qiji_app_shell-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-qiji_app_shell/Pods-qiji_app_shell-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9C7F3F3A44A40488656ED290 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-qiji_app_shell-qiji_app_shellTests/Pods-qiji_app_shell-qiji_app_shellTests-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-qiji_app_shell-qiji_app_shellTests/Pods-qiji_app_shell-qiji_app_shellTests-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-qiji_app_shell-qiji_app_shellTests/Pods-qiji_app_shell-qiji_app_shellTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FD10A7F022414F080027D42C /* Start Packager */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Start Packager";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "export RCT_METRO_PORT=\"${RCT_METRO_PORT:=8081}\"\necho \"export RCT_METRO_PORT=${RCT_METRO_PORT}\" > \"${SRCROOT}/../node_modules/react-native/scripts/.packager.env\"\nif [ -z \"${RCT_NO_LAUNCH_PACKAGER+xxx}\" ] ; then\n  if nc -w 5 -z localhost ${RCT_METRO_PORT} ; then\n    if ! curl -s \"http://localhost:${RCT_METRO_PORT}/status\" | grep -q \"packager-status:running\" ; then\n      echo \"Port ${RCT_METRO_PORT} already in use, packager is either not running or not running correctly\"\n      exit 2\n    fi\n  else\n    open \"$SRCROOT/../node_modules/react-native/scripts/launchPackager.command\" || echo \"Can't start packager automatically\"\n  fi\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		00E356EA1AD99517003FC87E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00E356F31AD99517003FC87E /* qiji_app_shellTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13B07F871A680F5B00A75B9A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A00BBF612727E94C0018D9AB /* CustomChartDateFormatter.swift in Sources */,
+				13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */,
+				A00BBF072726B4060018D9AB /* CRToastViewController.m in Sources */,
+				A00BBF632727E94C0018D9AB /* RNPieChartView.swift in Sources */,
+				A00BBF762727E94D0018D9AB /* RNBarChartManager.swift in Sources */,
+				A00BBF582727E94C0018D9AB /* FontUtils.swift in Sources */,
+				A00BBF5A2727E94C0018D9AB /* ChartDataSetConfigUtils.swift in Sources */,
+				A00BBF652727E94C0018D9AB /* PieDataExtract.swift in Sources */,
+				13B07FC11A68108700A75B9A /* main.m in Sources */,
+				A00BBF082726B4070018D9AB /* CRToastView.m in Sources */,
+				A00BBF022726B4060018D9AB /* MMAsyncLoadManager.m in Sources */,
+				A00BBF0A2726B4070018D9AB /* CRToastConfig.m in Sources */,
+				A00BBF572727E94C0018D9AB /* LargeValueFormatter.swift in Sources */,
+				A00BBF712727E94D0018D9AB /* RNCandleStickChartManager.swift in Sources */,
+				A00BBF042726B4060018D9AB /* MMAsyncGuideViewController.m in Sources */,
+				A00BBF6E2727E94D0018D9AB /* LineDataExtract.swift in Sources */,
+				A00BBF662727E94D0018D9AB /* RNPieChartManager.swift in Sources */,
+				A00BBF6F2727E94D0018D9AB /* CandleDataExtract.swift in Sources */,
+				A00BBF5B2727E94C0018D9AB /* HighlightUtils.swift in Sources */,
+				A00BBF5E2727E94C0018D9AB /* RNBubbleChartView.swift in Sources */,
+				A00BBF772727E94D0018D9AB /* RNBarChartManagerBridge.m in Sources */,
+				A00BBF752727E94D0018D9AB /* RNHorizontalBarChartManager.swift in Sources */,
+				A00BBF092726B4070018D9AB /* CRToastWindow.m in Sources */,
+				A00BBF592727E94C0018D9AB /* EntryToDictionaryUtils.swift in Sources */,
+				A00BBF622727E94C0018D9AB /* RNBarLineChartBaseManager.swift in Sources */,
+				A00BBF7B2727E94D0018D9AB /* RadarDataExtract.swift in Sources */,
+				A00BBF012726B4060018D9AB /* MMBaseReactNativeViewController.m in Sources */,
+				A00BBF642727E94C0018D9AB /* RNPieChartManagerBridge.m in Sources */,
+				A00BBF602727E94C0018D9AB /* RNBubbleChartManagerBridge.m in Sources */,
+				A0E2964F2720F77C0084AC52 /* PluginModule.m in Sources */,
+				A00BBF5F2727E94C0018D9AB /* BubbleDataExtract.swift in Sources */,
+				A00BBEFF2726B4060018D9AB /* MMTimeRecordUtil.m in Sources */,
+				A00BBF4F2727E94C0018D9AB /* RNCombinedChartView.swift in Sources */,
+				A00BBF722727E94D0018D9AB /* RNCandleStickChartManagerBridge.m in Sources */,
+				A00BBF7C2727E94D0018D9AB /* RNRadarChartManagerBridge.m in Sources */,
+				A00BBF682727E94D0018D9AB /* RNScatterChartView.swift in Sources */,
+				A00BBF672727E94D0018D9AB /* RNScatterChartManager.swift in Sources */,
+				A00BBF6B2727E94D0018D9AB /* RNLineChartView.swift in Sources */,
+				A00BBF062726B4060018D9AB /* CRToastManager.m in Sources */,
+				A00BBF7D2727E94D0018D9AB /* RNRadarChartView.swift in Sources */,
+				A00BBF5C2727E94C0018D9AB /* BridgeUtils.swift in Sources */,
+				A00BBF5D2727E94C0018D9AB /* RNBubbleChartManager.swift in Sources */,
+				A05D2C6627393216001A1536 /* OpenWifiModule.m in Sources */,
+				A00BBF502727E94C0018D9AB /* RNCombinedChartManager.swift in Sources */,
+				A00BBF812727E94D0018D9AB /* DataExtract.swift in Sources */,
+				A00BBF7E2727E94D0018D9AB /* RNRadarChartManager.swift in Sources */,
+				A00BBF512727E94C0018D9AB /* RNCombinedChartManagerBridge.m in Sources */,
+				A00BBF732727E94D0018D9AB /* RNBarChartViewBase.swift in Sources */,
+				A00BBF742727E94D0018D9AB /* BarDataExtract.swift in Sources */,
+				A00BBF6C2727E94D0018D9AB /* RNLineChartManager.swift in Sources */,
+				A00BBF802727E94D0018D9AB /* ChartGroupHolder.swift in Sources */,
+				A00BBF692727E94D0018D9AB /* RNScatterChartManagerBridge.m in Sources */,
+				A00BBF562727E94C0018D9AB /* ChartDateFormatter.swift in Sources */,
+				A00BBF6D2727E94D0018D9AB /* RNLineChartManagerBridge.m in Sources */,
+				A00BBF542727E94C0018D9AB /* BalloonMarker.swift in Sources */,
+				A00BBF032726B4060018D9AB /* MMAsyncReactNativeContainerViewController.m in Sources */,
+				A00BBF552727E94C0018D9AB /* RNBarLineChartViewBase.swift in Sources */,
+				A00BBF4E2727E94C0018D9AB /* IndexValueFormatter.swift in Sources */,
+				A00BBF782727E94D0018D9AB /* RNBarChartView.swift in Sources */,
+				A00BBF052726B4060018D9AB /* MMSyncReactNativeContainerViewController.m in Sources */,
+				A00BBF532727E94C0018D9AB /* RNYAxisChartViewBase.swift in Sources */,
+				A00BBF7F2727E94D0018D9AB /* RNChartViewBase.swift in Sources */,
+				A00BBF792727E94D0018D9AB /* RNHorizontalBarChartView.swift in Sources */,
+				A00BBF7A2727E94D0018D9AB /* RNHorizontalBarChartManagerBridge.m in Sources */,
+				A00BBF522727E94C0018D9AB /* CombinedDataExtract.swift in Sources */,
+				A00BBF702727E94D0018D9AB /* RNCandleStickChartView.swift in Sources */,
+				A00BBF6A2727E94D0018D9AB /* ScatterDataExtract.swift in Sources */,
+				A00BBF002726B4060018D9AB /* ZipUtil.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		00E356F51AD99517003FC87E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 13B07F861A680F5B00A75B9A /* qiji_app_shell */;
+			targetProxy = 00E356F41AD99517003FC87E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		00E356F61AD99517003FC87E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 303574B3BB805E3396B4724D /* Pods-qiji_app_shell-qiji_app_shellTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = qiji_app_shellTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-lc++",
+					"$(inherited)",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/qiji_app_shell.app/qiji_app_shell";
+			};
+			name = Debug;
+		};
+		00E356F71AD99517003FC87E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B773184BDCAC5A259C8C462C /* Pods-qiji_app_shell-qiji_app_shellTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COPY_PHASE_STRIP = NO;
+				INFOPLIST_FILE = qiji_app_shellTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-lc++",
+					"$(inherited)",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/qiji_app_shell.app/qiji_app_shell";
+			};
+			name = Release;
+		};
+		13B07F941A680F5B00A75B9A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 43B386F3BE4DDE3E6BCB9E47 /* Pods-qiji_app_shell.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = qiji_app_shell/qiji_app_shell.entitlements;
+				CURRENT_PROJECT_VERSION = 2;
+				DEVELOPMENT_TEAM = LQ46VD7K46;
+				ENABLE_BITCODE = NO;
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = arm64;
+				INFOPLIST_FILE = qiji_app_shell/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0.1;
+				NEW_SETTING = "";
+				NEW_SETTING1 = "";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.jiepei.smarthome;
+				PRODUCT_NAME = qiji_app_shell;
+				SWIFT_OBJC_BRIDGING_HEADER = "${SRCROOT}/../node_modules/react-native-charts-wrapper/ios/ReactNativeCharts/RNCharts-Bridging-Header.h";
+				SWIFT_OBJC_INTERFACE_HEADER_NAME = "";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Debug;
+		};
+		13B07F951A680F5B00A75B9A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EA90E0763CBE6BDD753BE9AD /* Pods-qiji_app_shell.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = qiji_app_shell/qiji_app_shell.entitlements;
+				CURRENT_PROJECT_VERSION = 2;
+				DEVELOPMENT_TEAM = LQ46VD7K46;
+				INFOPLIST_FILE = qiji_app_shell/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0.1;
+				NEW_SETTING = "";
+				NEW_SETTING1 = "";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.jiepei.smarthome;
+				PRODUCT_NAME = qiji_app_shell;
+				SWIFT_OBJC_BRIDGING_HEADER = "${SRCROOT}/../node_modules/react-native-charts-wrapper/ios/ReactNativeCharts/RNCharts-Bridging-Header.h";
+				SWIFT_OBJC_INTERFACE_HEADER_NAME = "";
+				SWIFT_VERSION = 5.0;
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Release;
+		};
+		83CBBA201A601CBA00E9B192 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = "";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					/usr/lib/swift,
+					"$(inherited)",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"\"$(SDKROOT)/usr/lib/swift\"",
+					"\"$(TOOLCHAIN_DIR)/usr/lib/swift/$(PLATFORM_NAME)\"",
+					"\"$(TOOLCHAIN_DIR)/usr/lib/swift-5.0/$(PLATFORM_NAME)\"",
+					"\"$(inherited)\"",
+				);
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		83CBBA211A601CBA00E9B192 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = "";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					/usr/lib/swift,
+					"$(inherited)",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"\"$(SDKROOT)/usr/lib/swift\"",
+					"\"$(TOOLCHAIN_DIR)/usr/lib/swift/$(PLATFORM_NAME)\"",
+					"\"$(TOOLCHAIN_DIR)/usr/lib/swift-5.0/$(PLATFORM_NAME)\"",
+					"\"$(inherited)\"",
+				);
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "qiji_app_shellTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				00E356F61AD99517003FC87E /* Debug */,
+				00E356F71AD99517003FC87E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "qiji_app_shell" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				13B07F941A680F5B00A75B9A /* Debug */,
+				13B07F951A680F5B00A75B9A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "qiji_app_shell" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				83CBBA201A601CBA00E9B192 /* Debug */,
+				83CBBA211A601CBA00E9B192 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 83CBB9F71A601CBA00E9B192 /* Project object */;
+}

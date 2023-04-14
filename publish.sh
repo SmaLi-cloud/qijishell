@@ -1,0 +1,1 @@
+scp ./android/app/build/outputs/apk/release/app-release.apk  root@118.89.105.31:/project/qiji/api/fileserver/apk/

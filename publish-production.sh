@@ -1,0 +1,1 @@
+scp ./android/app/build/outputs/apk/release/app-release.apk  root@120.25.236.111:/var/www/crowdfunding/web/static
